@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	user-select: none;
+	min-width: fit-content;
+	min-height: fit-content;
+	background-color: #000;
+}
+
+body::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+body::-webkit-scrollbar-track {
+	background: black;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: dodgerblue;
+	border-radius: 20px;
+}
+
+*:focus {
+	outline: none;
+}
+
+.logo {
+	height: 40px;
+	margin-top: 8px;
+}
+
+nav {
+	position: fixed;
+	z-index: 1;
+}
+
+nav a {
+	font-family: "Helvetica";
+	text-decoration: none;
+	color: black;
+	margin-left: 25px;
+	font-size: 20px;
+}
+
+nav a:hover {
+	color: aliceblue;
+}
+
+nav a:active {
+	color: black;
+}
+
+h2 {
+	text-align: center;
+	font-family: "satisfy";
+	font-size: xx-large;
+	padding: 5px;
+	margin: 10px;
+}
+
+.image-slide {
+	box-sizing: border-box;
+	height: 780px;
+	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	scrollbar-width: none;
+	margin: -8px;
+	position: relative;
+	overflow: hidden;
+}
+
+.container {
+	margin: 20% 25%;
+}
+.container input {
+	font-family: "Helvetica";
+	font-size: x-large;
+	background-color: transparent;
+	border: 3px solid black;
+	height: 35px;
+	width: 220px;
+	margin-left: 10px;
+}
+
+.container input:hover {
+	cursor: pointer;
+}
+
+.container select {
+	font-family: "Helvetica";
+	font-size: x-large;
+	background-color: transparent;
+	border: 3px solid black;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.container button {
+	font-family: "Helvetica";
+	font-size: x-large;
+	border: 3px solid black;
+	background: transparent;
+	margin-top: 15px;
+	font-weight: bolder;
+	height: 40px;
+	width: 180px;
+	margin: 4% 35%;
+}
+
+button:hover {
+	color: aliceblue;
+	border: 3px solid aliceblue;
+}
+
+button:active {
+	color: black;
+	border: 3px solid black;
+}
+
+.card-section {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	margin-top: 10%;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.card {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: relative;
+	background-color: transparent;
+	font-size: large;
+	font-weight: bolder;
+	width: 350px;
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Helvetica";
+	padding: 10px;
+	opacity: 90%;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.card:hover {
+	border: 3px solid black;
+	opacity: 100%;
+	padding: 8px;
+}
+
+.card p {
+	padding: 5px;
+	background-color: rgba(240, 248, 255, 0.4);
+}
+
+.card p:hover {
+	background-color: transparent;
+	color: transparent;
+}
+
+.card .price {
+	font-family: "satisfy";
+	background-color: rgba(240, 248, 255, 0.4);
+	margin-left: 80px;
+	margin-bottom: 2px;
+}
+
+.card button {
+	display: inline-block;
+	font-family: "Helvetica";
+	background-color: transparent;
+	font-weight: bolder;
+	font-size: large;
+	height: 40px;
+	width: 180px;
+	margin-top: 20px;
+	margin-left: 22%;
+	color: black;
+	border: 3px solid black;
+}
+
+.card button:hover {
+	color: aliceblue;
+	border: 3px solid aliceblue;
+}
+
+.card button:active {
+	color: black;
+	border: 3px solid black;
+}
+
+#logo {
+	display: block;
+	height: 100px;
+	margin-left: 22%;
+	padding-top: 180px;
+}
+
+.about-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+}
+
+.v-box {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.v-box-4 {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+}
+
+.h-box {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+}
+
+#slogan {
+	display: block;
+	font-family: "satisfy";
+	font-size: 50px;
+	margin-left: 20%;
+	padding-top: 20px;
+}
+
+.clr-red {
+	color: #f8312f;
+}
+
+.font-satisfy {
+	font-family: "satisfy";
+	font-size: 27px;
+}
+
+.about-content {
+	box-sizing: border-box;
+	border: 2px solid #000;
+	background-color: rgba(240, 248, 255, 0.2);
+	width: 350px;
+	height: 490px;
+	font-family: "Helvetica";
+	font-size: x-large;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 15%;
+	margin-left: 30%;
+}
+
+.about-content:hover {
+	border: 3px solid #000;
+	background-color: rgba(240, 248, 255, 0);
+	background-image: url("./heart.png");
+	background-position-y: 55px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.goals {
+	list-style: "✅";
+}
+
+.quick-links {
+	margin: -8px;
+	border-top: 10px solid #000;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: linear-gradient(
+		135deg,
+		rgba(30, 87, 153, 1) 0%,
+		rgba(41, 137, 216, 1) 50%,
+		rgba(32, 124, 202, 1) 51%,
+		rgba(125, 185, 232, 1) 100%
+	);
+}
+
+.quick-links-logo {
+	margin-top: 5%;
+	height: 45px;
+}
+
+.icons-row {
+	padding-top: 4px;
+	margin-bottom: 15px;
+}
+
+.icons {
+	width: 24px;
+	padding-right: 5px;
+}
+
+.icons:hover {
+	cursor: pointer;
+}
+
+.contact {
+	padding-top: 3px;
+}
+
+.contact-text {
+	font-family: "Helvetica";
+	user-select: text;
+	font-size: larger;
+}
+
+.quick-links-col {
+	display: inline-block;
+}
+
+.address {
+	margin-top: 15%;
+}
+
+.address-text {
+	margin-left: -45px;
+	font-family: "Helvetica";
+	font-size: larger;
+	width: max-content;
+	user-select: text;
+}
+
+.quick-links-col li {
+	font-family: "Helvetica";
+	list-style: none;
+	padding: 3px;
+	width: fit-content;
+}
+
+.quick-links-col li:hover {
+	color: aliceblue;
+	cursor: pointer;
+}
+
+.quick-links-col li:active {
+	color: black;
+	cursor: pointer;
+}
+
+.quick-links-col h3 {
+	display: inline;
+	font-family: "Comic Sans MS";
+	padding: 3px;
+	margin-left: 20px;
+}

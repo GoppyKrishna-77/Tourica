@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Tourica</title>
+		<link rel="stylesheet" href="./home.css" />
+	</head>
+
+	<body>
+		<nav>
+			<img class="logo" src="./Tourica.png" type="image/png" />
+			<a class="nav-link" href="#home">Home</a>
+			<a class="nav-link" href="#packages">Our Packages</a>
+			<a class="nav-link" href="#about-us">About Us</a>
+			<a class="nav-link" href="#contact">Contact</a>
+		</nav>
+		<div
+			id="home"
+			class="image-slide"
+			style="background-image: url('./pics/new-zelandC.jpg')"
+		>
+			<div class="container">
+				<select>
+					<option selected hidden disabled>
+						🌎Choose your Destination
+					</option>
+					<option>🌍Paris</option>
+					<option>🌏Singapore</option>
+					<option>🌍Venice</option>
+					<option>🌍London</option>
+					<option>🌍Dubai</option>
+					<option>🌏New Zealand</option>
+				</select>
+				<input
+					type="text"
+					value="🗓️ Vacation Date"
+					onmousedown="return false;"
+					onClick="(this.type='date')"
+				/>
+				<select>
+					<option selected hidden disabled>⌚Duration</option>
+					<option>7 Days</option>
+					<option>14 Days</option>
+					<option>1 Month</option>
+				</select>
+				<div class="button">
+					<button type="button">✈ Let's Go</button>
+				</div>
+			</div>
+		</div>
+
+		<div
+			class="popular-section image-slide"
+			style="background-image: url('./pics/london.jpg')"
+		>
+			<h2 id="packages">Our Packages</h2>
+
+			<div class="card-section">
+				<div
+					class="card"
+					style="background-image: url('./pics/paris.jpg')"
+				>
+					<h2>#1 Paris, France</h2>
+					<p>
+						Paris is not just the capital of France; it’s the
+						capital of fashion and the city of love. Europe’s most
+						enchanting city, Paris is known for its many monuments,
+						especially the Eiffel Tower, Notre-Dame Cathedral, Arc
+						de Triomphe, Opéra Garnier, Les Invalides, etc.
+					</p>
+
+					<span class="price">₹60,000/person (7 days)</span>
+
+					<button type="button">✈ Let's Go</button>
+				</div>
+
+				<div
+					class="card"
+					style="
+						background-image: url('./pics/singapore.jpeg');
+					"
+				>
+					<h2>#2 Singapore</h2>
+					<p>
+						Best described as a microcosm of modern Asia, Singapore
+						is a melting pot of culture and history, and an
+						extravaganza of culinary delights. The incredible
+						shopping malls, classy boutiques, the exotic elements of
+						Chinatown and Little India and makes is world-class.
+					</p>
+
+					<span class="price">₹35,000/person (7 days)</span>
+
+					<button type="button">✈ Let's Go</button>
+				</div>
+
+				<div
+					class="card"
+					style="background-image: url('./pics/venice.jpg')"
+				>
+					<h2>#3 Venice, Italy</h2>
+					<p>
+						A beautiful city known for its interconnected canals and
+						its gondola rides. Equal measures of romance and culture
+						makes this city beautiful and breathtaking. Water
+						shimmers everywhere in this breathtaking city, with
+						canals where the streets should be.
+					</p>
+
+					<span class="price">₹55,000/person (7 days)</span>
+
+					<button type="button">✈ Let's Go</button>
+				</div>
+			</div>
+		</div>
+
+		<div
+			class="popular-section image-slide"
+			style="background-image: url('./pics/singapore.jpeg')"
+		>
+			<div class="card-section">
+				<div
+					class="card"
+					style="background-image: url('./pics/london.jpg');
+                           background-position-x: center;"
+				>
+					<h2>#4 London, UK</h2>
+					<p>
+						London, the enigmatic capital of the United Kingdom, is
+						a global city renowned for its museums, Big Ben, London
+						Bridge, Buckingham palace and the Royal Monarchy.
+						Located on the banks of River Thames, Greater London
+						consists of 32 boroughs and the City of London.
+					</p>
+
+					<span class="price">₹70,000/person (7 days)</span>
+
+					<button type="button">✈ Let's Go</button>
+				</div>
+
+				<div
+					class="card"
+					style="
+						background-image: url('./pics/dubai.jpg');
+					"
+				>
+					<h2>#5 Dubai, UAE</h2>
+
+					<p>
+						Dubai knows nothing better than the best. It’s not a
+						city. It’s an idea that hinges on superlatives. With a
+						fanatic structuring, packaging, building and redrawing
+						of the skyline, the city continues to grow capturing the
+						imagination of the world and how.
+					</p>
+
+					<span class="price">₹55,000/person (7 days)</span>
+
+					<button type="button">✈ Let's Go</button>
+				</div>
+
+				<div
+					class="card"
+					style="background-image: url('./pics/new-zelandC.jpg')"
+				>
+					<h2>#6 New Zealand</h2>
+
+					<p>
+						New Zealand is an island nation in the Pacific Ocean
+						composed of two significant landmasses. New Zealand is
+						one of the world’s foremost hiking, skiing and surfing
+						getaways, locally owing to its ancient forests,
+						lake-side trails, mountains, beaches, majestic fjords.
+					</p>
+
+					<span class="price">₹40,000/person (7 days)</span>
+
+					<button type="button">✈ Let's Go</button>
+				</div>
+			</div>
+		</div>
+
+		<div
+			class="image-slide"
+			style="background-image: url('./pics/venice.jpg')"
+		>
+			<h2 id="about-us">About Us</h2>
+
+			<div class="about-container">
+				<div class="v-box">
+					<img id="logo" src="./Tourica.png" type="image/png"/>
+					<label id="slogan">
+						❤️Life is an
+						<span class="clr-red">Adventure</span></label
+					>
+				</div>
+				<div class="about-content">
+					<p>
+						<span class="clr-red font-satisfy">Tourica</span> is a
+						travel and tourism company that started in 2023. We
+						ensure your <span class="clr-red">Safety</span> and <span class="clr-red">Fun</span> on every travel with us.
+					</p>
+					<br />
+					<p>We prioritize:</p>
+					<ul class="goals">
+						<li>Experience of a lifetime</li>
+						<li>Budget Friendliness</li>
+						<li>Hospitality</li>
+						<li>Quality Food and Services</li>
+						<li>Privacy and Safety</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="quick-links h-box" id="contact" style="padding-left: 100px">
+			<div class="v-box-4 quick-links-col">
+				<img
+					class="quick-links-logo"
+					src="./Tourica.png"
+					type="image/png"
+				/>
+				<div class="icons-row">
+					<img
+						class="icons"
+						src="./icons/facebook.svg"
+						type="image/svg"
+					/>
+					<img
+						class="icons"
+						src="./icons/instagram.svg"
+						type="image/svg"
+					/>
+					<img
+						class="icons"
+						src="./icons/twitter.svg"
+						type="image/svg"
+					/>
+					<img
+						class="icons"
+						src="./icons/whatsapp.svg"
+						type="image/svg"
+					/>
+				</div>
+				<div class="contact">
+					<img
+						style="height: 20px"
+						src="./icons/telephone-fill.svg"
+						type="image/svg"
+					/>
+					<span class="contact-text">+91 1234567890</span>
+				</div>
+				<div class="contact">
+					<img
+						style="height: 20px;"
+						src="./icons/envelope-at.svg"
+						type="image/svg"
+					/>
+					<span class="contact-text"> tourica2023@tours.com</span>
+				</div>
+			</div>
+
+			<div class="h-box address">
+				<img
+					class="icons"
+					src="./icons/geo-alt-fill.svg"
+					type="image/svg"
+					style="cursor: default"
+				/>
+
+				<span class="address-text">
+					No 3, Vallalar Road,
+					<br />Chetpet, Chennai-31, <br />Tamil Nadu, India
+				</span>
+			</div>
+
+			<div class="quick-links-col">
+				<h3>Quick Links</h3>
+				<ul class="list">
+					<li>Offers & Discounts</li>
+					<li>Coupon Code</li>
+					<li>Flights</li>
+					<li>Hotels</li>
+					<li>Locations</li>
+				</ul>
+			</div>
+
+			<div class="quick-links-col">
+				<h3>Support</h3>
+				<ul class="list">
+					<li>FAQs</li> 
+					<li>Feedback</li>
+					<li>Report</li>
+					<li>Terms & Conditions</li>
+					<li>Privacy Policy</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
