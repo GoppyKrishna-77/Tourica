@@ -30,6 +30,7 @@ body::-webkit-scrollbar-thumb {
 .logo {
 	height: 40px;
 	margin-top: 8px;
+    vertical-align: bottom;
 }
 
 nav {
@@ -63,7 +64,7 @@ h2 {
 
 .image-slide {
 	box-sizing: border-box;
-	height: 780px;
+	height: 810px;
 	background-size: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
